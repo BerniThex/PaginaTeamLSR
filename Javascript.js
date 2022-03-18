@@ -1,0 +1,1 @@
+alert("Bienvenido a la página oficial del Team LSR (Luser)")
