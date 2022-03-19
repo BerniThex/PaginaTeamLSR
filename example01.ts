@@ -1,15 +1,3 @@
-alert("Bienvenido a la página oficial del Team LSR (Luser)")
-
-function escribir(){
-    document.write("hola mundo");
-}
-
-//comentario en una sola linea
-
-/* comentario en
-multiples lineas
-*/
-
 /* Cuando usemos TypeScript, LO MEJOR es DEFINIR la VARIABLE DE TIPO EXPLICITA en vez de implicita.
     Esto lo que hace es MEJORAR un poco la LECTURA DE CODIGO y el MANTENIMIENTO en el futuro.
 
@@ -30,3 +18,11 @@ multiples lineas
 
 */
 
+let a: number; //*inferencia explícita
+
+let b: string; //*inferencia explícita
+
+let c=101; //*inferencia implícita
+
+
+c="one"
